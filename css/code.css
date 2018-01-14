@@ -1,0 +1,48 @@
+section#code {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}
+
+section#code h1 {
+  font-size: 46px;
+}
+
+section#code .box-showcase {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+section#code .box-showcase > .box {
+  border-radius: 15px;
+  width: 330px;
+  min-height: 250px;
+  background-color: rgb(51, 41, 39);
+  margin: 15px;
+  padding: 15px;
+}
+
+section#code .box-showcase > .box > .title {
+  font-size: 30px;
+}
+
+section#code .box-showcase > .box > .description {
+  text-align: justify;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.color-code {
+  color: rgb(85, 141, 102) !important;
+}
+
+.color-title {
+  color: rgb(217, 120, 82) !important;
+}
+
+.color-description {
+  color: rgb(129, 141, 106) !important;
+}
+

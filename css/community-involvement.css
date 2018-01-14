@@ -1,0 +1,47 @@
+section#community {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  background-color: rgb(64, 58, 50);
+}
+
+section#community h1 {
+  color: rgb(217, 120, 82);
+  font-size: 46px;
+}
+
+section#community .inline-showcase {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section#community .inline-showcase > .inline {
+  width: 80%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+section#community .inline-showcase > .inline.inline-reverse {
+  flex-direction: row-reverse;
+}
+
+section#community .inline-showcase > .inline > img {
+  width: 125px;
+  height: 125px;
+  border-radius: 15px;
+  margin: 15px;
+}
+
+section#community .inline-showcase > .inline > .description {
+  color: rgb(129, 141, 106);
+  text-align: justify;
+  width: 600px;
+}
+
