@@ -1,0 +1,28 @@
+footer#contact-me {
+  min-height: 30%;
+  display: flex;
+  align-items: center;
+}
+
+footer#contact-me .social {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+footer#contact-me .social a {
+  margin: 15px;
+}
+
+footer#contact-me .social a > i {
+  font-size: 40px;
+}
+
+footer#contact-me hr {
+  width: 30%;
+}
+
+footer#contact-me p {
+  margin: 15px 0;
+  font-size: 16px;
+  color: rgb(217, 120, 82);
+}

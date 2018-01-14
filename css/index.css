@@ -1,6 +1,7 @@
 @import 'welcome-banner.css';
 @import 'code.css';
 @import 'community-involvement.css';
+@import 'contact-me.css';
 
 html, body {
   width: 100%;
@@ -33,12 +34,13 @@ section {
   min-height: 700px;
 }
 
-a {
+a, i {
   text-decoration-color: rgb(205, 183, 177);
   color: rgb(205, 183, 177);
 }
 
-a:hover {
+a:hover,
+i:hover {
   text-decoration-color: rgb(85, 141, 102);
   color: rgb(85, 141, 102);
   -webkit-transition: color 500ms;
